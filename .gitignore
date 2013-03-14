@@ -1,12 +1,33 @@
-*.depend
-*.layout
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# XCode 
+
+*.xcscheme
+*.xcsettings
+*.xcworkspacedata
+*.xcworkspace
+*.xcuserdatad
 *.mode*v3
 *.pbxuser
-*.app*
-*.DS_*
+*.depend
+*.layout
 
-.svn/
+# Folder
+
 obj/
 bin/
 build/
 !data/
+
+# Other
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.app*
